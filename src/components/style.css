@@ -1,0 +1,75 @@
+/* Top header */
+.container-fluid.top {
+  background: black;
+}
+.h-top-menu a {
+  display: inline-block;
+  padding: 20px 0;
+  font-size: 19px;
+  margin-right: 51px;
+  text-decoration: none;
+  color: white;
+}
+.h-top-menu a:hover {
+  color: red;
+}
+.t-right-menu {
+  text-align: right;
+}
+.t-right-menu a {
+  display: inline-block;
+  padding: 20px 0;
+  font-size: 19px;
+  color: white;
+  margin-left: 18px;
+  text-align: right;
+}
+
+/* bottom btn */
+.botto-btn.text-center a.inactive {
+  background: gray;
+  color: white;
+  display: inline-block;
+  margin: 3px;
+  transition: 0.2s;
+}
+.botto-btn.text-center a.active {
+  background: black;
+  color: white;
+}
+.botto-btn.text-center a:hover {
+  background: black;
+  color: white;
+}
+
+/* form */
+.plus {
+  display: contents;
+  font-size: 21px;
+  font-weight: 600;
+  margin-right: 0px;
+}
+form input {
+  padding: 5px 0;
+  margin-right: 6px;
+  width: 141px;
+}
+form button {
+  margin-right: 8px;
+}
+button#dropdownMenuButton {
+  width: 102px;
+}
+.left input {
+  width: 18px;
+}
+.left label {
+  font-weight: bold;
+}
+input.check {
+  width: 14px;
+  margin-left: 14px;
+}
+.col-md-4.text-end {
+  text-align: right;
+}
